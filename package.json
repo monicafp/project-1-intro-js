@@ -1,0 +1,16 @@
+{
+  "name": "project-1-js",
+  "version": "0.1.0",
+  "description": "Project 1 for Codetrotters Intro to JavaScript & Node.js class: Building a command line application to give us BAC (Blood Alcohol Content).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mónica Fornaris Pau",
+  "license": "MIT",
+  "dependencies": {
+    "clear": "0.0.1",
+    "colors": "^1.1.2",
+    "prompt-sync": "^4.1.4"
+  }
+}
