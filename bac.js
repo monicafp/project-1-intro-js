@@ -17,14 +17,14 @@ if (gender === 1) {
   gender = 0.66;
 }
 
-var BAC = (cansOfBeer * 10 * 5.14 / weight * gender) - .015 * hoursSinceLastDrink;
+var BAC = (cansOfBeer * 10 * 5.14 / weight * gender) - 0.015 * hoursSinceLastDrink;
 
 function bac() {
   if (BAC < 0.08) {
-    console.log(name.green, ", your blood alcohol content is".green, BAC.toPrecision(2).green, ".\nYou are ok to drive. Be safe!").green;
+    console.log(name.green, ", your blood alcohol content is".green, BAC.toPrecision(2).green, ".\nYou are ok to drive. Be safe!".green);
   } else {
     console.log(name.red, ", your blood alcohol content is".red, BAC.toPrecision(2).red, ".\nDo not drive!".red);
   }
 }
 
-console.log(bac());
+bac();
